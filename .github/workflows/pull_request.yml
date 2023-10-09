@@ -1,7 +1,7 @@
 name: pull-request
 on:
   pull_request_review:
-    branches: [develop]
+    branches: [development]
     types: [submitted]
 
 concurrency:
